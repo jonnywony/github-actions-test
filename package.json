@@ -1,4 +1,11 @@
 {
+    "name": "simple-node-application",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest --forceExit"
+    },
     "devDependencies": {
         "express": "^4.18.2",
         "serverless-offline": "^12.0.4"
