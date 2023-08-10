@@ -9,7 +9,7 @@ provider:
 
 functions:
   api:
-    handler: index.handler
+    handler: index.app
     events:
       - httpApi:
           path: /
